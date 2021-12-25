@@ -68,24 +68,6 @@ app.get('/', (req, res) => {
     res.send('server ready')
 });
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 app.listen(port, () => {
     console.log('listening port', port)
 })
